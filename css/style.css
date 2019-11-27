@@ -168,6 +168,10 @@ input{
   margin-right: 50px;
   border-bottom: 2px dashed black;
 }
+.productName{
+  font-weight: bold;
+  font-size: 20px
+}
 .titleDes{
   display: flex;
   justify-content: flex-start;
