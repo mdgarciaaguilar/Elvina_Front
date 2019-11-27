@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Pastelería Elvina
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>First Server</title>
+  <link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+	<body>
+		<header>
+			<h2>
+				Pastelería Elvina
+			</h2>
+		</header>
+		<nav class="menuNav">
+			<ul id="menu">
+
+				<li id="historia" class="menu">
+					Historia
+				</li>
+				<li id="productos" class="selected menu">
+					Productos
+				</li>
+				<li id="contact" class="menu">
+					Contacto
+				</li>
+
+			</ul>
+		</nav>
+		<main>
+      <section id="productosSection" class="currentSelected">
+        <div class="searchBar">
+          <button id="searchButton" type="submit">Buscar</button>
+          <input id="searchTerm" type="text" placeholder="Search..">
+        </div>
+
+        <nav class="categoriaNav">
+          <ul id="cate">
+
+    				<li id="Chocolatería" class="categoria cateSelected">
+    					Chocolatería
+    				</li>
+    				<li id="Detalles personalizados" class="categoria">
+    					Detalles personales
+    				</li>
+            <li id="Panadería" class="categoria">
+    					Panadería
+    				</li>
+            <li id="Repostería" class="categoria">
+    					Repostería
+    				</li>
+    				<li id="Pastelería" class="categoria">
+    					Pastelería
+    				</li>
+
+    			</ul>
+        </nav>
+
+        <ul id="listaProductos">
+
+          <li class="liProducto">
+            <img src="https://mdgarciaaguilar.github.io/Elvina_Data/img/chocolateria/tortugones.jpg" width=100px height=100px>
+            <div class="titleDes">
+              <label class="productName">Tortugones</label>
+              <label class="descripcion">Chocolate amargo relleno de suave caramelo 100% artesanal elaborado desde cero y trozos de nuez.</label>
+            </div>
+          </li>
+
+          <li class="liProducto">
+            <img src="https://mdgarciaaguilar.github.io/Elvina_Data/img/chocolateria/fresas.jpg" width=100px height=100px>
+            <div class="titleDes">
+              <label class="productName">Fresas</label>
+              <label class="descripcion">Fresas naturales cubiertas de chocolate amargo y chocolate blanco.</label>
+            </div>
+          </li>
+
+          <li class="liProducto">
+            <img src="https://mdgarciaaguilar.github.io/Elvina_Data/img/chocolateria/pretzels.jpg" width=100px height=100px>
+            <div class="titleDes">
+              <label class="productName">Pretzels</label>
+              <label class="descripcion">Pretzels cubiertos de chocolate amargo y chocolate blanco.</label>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+      <section id="historiaSection" hidden>
+        <div class="hist">
+          El descubrimiento por la pasión a la repostería que dio origen a lo que hoy se conoce como Elvina, surge en el año 2009 cuando la dueña comenzó a enamorarse de la cocina dulce al cocinar mano a mano con su abuela Etelvina, quien año tras año la motivó a capitalizar esta pasión como una empresa después de haber estudiado su Licenciatura en Artes Gastronómicas.
+        </div>
+        <img src="./img/rollos.png" class="histImg">
+        <div class="hist">
+          En el año 2014 fallece su abuela Etelvina. Por lo que la dueña al oficializar su empresa de pastelería (2017), decidió fundarla con el nombre "Elvina" para conmemorarla.
+        </div>
+      </section>
+
+      <section id="contactSection" hidden>
+        <div class="hist">
+          ¡Hola! Soy Karen Guerra, fundadora de Pastelería Elvina, para realizar una orden por favor comunícate al siguiente número 81 2623 9779. Haz tu pedido especial con 2 o 3 días de anticipación.
+        </div>
+        <img src="./img/karen.jpg" class="karenImg">
+        <div class="hist">
+          <div>
+            ¡Síguenos en redes sociales!
+          </div>
+          <a target="_blank" href="https://www.instagram.com/elvina.pasteleria/">
+            <img alt="Facebook" src="./img/fb.png" class="redes">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/ElvinaPArtesanal/">
+            <img alt="Instagram" src="./img/insta.png" class="redes">
+          </a>
+
+        </div>
+      </section>
+		</main>
+    <script
+     src="https://code.jquery.com/jquery-3.4.1.js"
+     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+     crossorigin="anonymous"></script>
+    </script>
+    <script src="./js/script.js" type="text/javascript"> </script>
+	</body>
+</html>

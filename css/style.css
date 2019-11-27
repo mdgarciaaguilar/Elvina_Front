@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    color: #4F545F;
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.menuNav{
+    padding: 0;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+h2{
+    background-color: #F3F3EA;
+    margin: 0px;
+    padding: 6px;
+    color: #6C4F1D;
+    font-family: cursive;
+}
+
+.buttonHover{
+	font-size: 16px;
+	padding: 10px 20px;
+	text-align : center;
+	color: white;
+	margin-left: 20px;
+	border-radius: 7px;
+}
+
+#submitButton{
+	background-color: #56C56F;
+}
+
+.buttonHover:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#cancelButton{
+	background-color: #D9534F;
+}
+
+#menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+
+#menu > li{
+  float: left;
+  padding: 5px;
+  font-size: 10px;
+  background-color: white;
+  width: 33.3333%;
+  text-align: center;
+}
+
+#menu > li:hover, .selected{
+  background-color: #E7E7E7;
+  color: black;
+  cursor: pointer;
+}
+.categoriaNav{
+  padding: 0;
+  background-color: white;
+  color: black;
+  border: 2px dashed pink;
+}
+#cate {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+}
+#cate > li{
+  float: left;
+  padding: 5px;
+  font-size: 10px;
+  background-color: white;
+  width: 20%;
+  text-align: center;
+}
+#cate > li:hover{
+  background-color: #E7E7E7;
+  color: black;
+  cursor: pointer;
+}
+
+#listaProductos {
+  list-style: none;
+}
+
+.selected, .cateSelected{
+  font-weight: bold;
+}
+main {
+  margin: 0;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-pink-background-fluid-marble-texture-simple-image_17395.jpg");
+}
+button{
+  float: right;
+}
+input{
+  float: right;
+}
+
+.searchBar{
+  overflow: hidden;
+  padding-top: 7px;
+  margin-bottom: 7px;
+}
+
+#historiaSection{
+  /*
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-pink-background-fluid-marble-texture-simple-image_17395.jpg");
+  background-color: #F3F3EA;
+  */
+  padding-left: 10px;
+}
+#contactSection{
+  /*
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-pink-background-fluid-marble-texture-simple-image_17395.jpg");
+  background-color: #F3F3EA;
+  */
+  padding-left: 10px;
+}
+.histImg{
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.karenImg{
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hist{
+  color: black;
+  margin-left: 0;
+  width: 100%;
+  align-self: center;
+  text-align: justify;
+  padding: 10px;
+}
+.liProducto{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 10px;
+  padding-bottom: 10px;
+  margin-right: 50px;
+  border-bottom: 2px dashed black;
+}
+.titleDes{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+label{
+  align-items: flex-start;
+  margin: 5px;
+  color: black;
+  height: 50%;
+}
+.redes{
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
